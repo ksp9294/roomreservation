@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: user001.azurecr.io/order:v1
+          image: roomrsv.azurecr.io/order:v1
           ports:
             - containerPort: 8080
           env:
